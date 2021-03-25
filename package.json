@@ -1,0 +1,27 @@
+{
+  "name": "launch-school-javascript-130",
+  "version": "1.0.0",
+  "description": "Exercises from Launch School JS130: More JavaScript Foundations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDGuillaume/launch-school-javascript-130.git"
+  },
+  "author": "Joseph Guillaume",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDGuillaume/launch-school-javascript-130/issues"
+  },
+  "homepage": "https://github.com/JDGuillaume/launch-school-javascript-130#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-cli": "^1.1.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
