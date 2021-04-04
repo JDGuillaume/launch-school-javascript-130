@@ -40,9 +40,3 @@ class Robot {
 }
 
 module.exports = Robot;
-Math.seedrandom(SAME_INITIAL_ROBOT_NAME_SEED);
-let robot1 = new Robot();
-Math.seedrandom(SAME_INITIAL_ROBOT_NAME_SEED);
-let robot2 = new Robot();
-console.log(Robot.ROBOT_TRACKER);
-console.log(robot1, robot2);
