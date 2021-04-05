@@ -18,18 +18,18 @@ class CustomSet {
 
   difference(otherSet) {
     return new CustomSet(
-      this.set.filter(element => !otherSet.set.includes(element))
+      this.set.filter(element => !otherSet.contains(element))
     );
   }
 
   intersection(otherSet) {
     return new CustomSet(
-      this.set.filter(element => otherSet.set.includes(element))
+      this.set.filter(element => otherSet.contains(element))
     );
   }
 
   isDisjoint(otherSet) {
-    return this.set.every(element => !otherSet.set.includes(element));
+    return this.set.every(element => !otherSet.contains(element));
   }
 
   isEmpty() {
@@ -41,7 +41,7 @@ class CustomSet {
   }
 
   isSubset(otherSet) {
-    return this.set.every(element => otherSet.set.includes(element));
+    return this.set.every(element => otherSet.contains(element));
   }
 
   isUnique(array) {
